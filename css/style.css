@@ -1,0 +1,34 @@
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+.bg {
+    color: #828183;
+}
+
+.eprimary {
+    color: #857490;
+}
+
+
+.bg-eprimary {
+    background-color: #857490;
+}
+
+.nav-link {
+    color: #F4F3EE;
+    font-family: 'Signika', sans-serif;
+}
+
+.navbar-brand {
+    color: #F4F3EE;
+    font-family: 'Signika', sans-serif;
+    font-size: 28px !important;
+}
+
+.esecondary {
+    color: #463F3A;
+}
+
+.etertiary {
+    color: #F4F3EE;
+}
