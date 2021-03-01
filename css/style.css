@@ -1,6 +1,13 @@
+/* Headers */
 h2 {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    font-size: 300;
 }
+
+/* Basic page CSS */
 .bg {
     color: #828183;
 }
@@ -9,11 +16,11 @@ h2 {
     color: #857490;
 }
 
-
 .bg-eprimary {
     background-color: #857490;
 }
 
+/* Navbar */
 .nav-link {
     color: #F4F3EE;
     font-family: 'Signika', sans-serif;
@@ -25,6 +32,30 @@ h2 {
     font-size: 28px !important;
 }
 
+.navbar-brand:hover {
+    color: #463F3a;
+}
+
+.navbar-toggler {
+    color:#F4F3EE;
+}
+
+.navbar-toggler-icon{
+    background-image: url("/img/kiwi-bird-solid.svg");
+}
+
+/* FontAwesome */
+.portfolio-icon {
+    color:#F0F0F0;
+    padding-top: 5px;
+    padding-bottom: 5px
+    
+}
+.portfolio-item p {
+    color: #463F3A;
+    font-size: 24;
+}
+/* Color scheme reference */
 .esecondary {
     color: #463F3A;
 }
@@ -32,3 +63,34 @@ h2 {
 .etertiary {
     color: #F4F3EE;
 }
+
+/* Masonry */
+* { box-sizing: border-box; }åß
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+  
+}
+
+.grid-item {
+  width: 400px;
+  height: 450;
+  float: left;
+  background: #857490;
+  border: 1px solid #463F3A;
+  border-color: hsla(0, 0%, 0%, 0.5);
+  border-radius: 5px;
+  margin-bottom: 4px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.grid-item--width2 { width: 340px; }
+.grid-item--width3 { width: 520px; }
+.grid-item--width4 { width: 780px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
