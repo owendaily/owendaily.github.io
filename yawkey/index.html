@@ -30,6 +30,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#week2">Week 2</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#week3">Week 3</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#week4">Week 4</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#week5">Week 5</a></li>
                 </ul>
             </div>
         </nav>
@@ -110,11 +111,31 @@
                             <h3 class="mb-0">Color Sensors</h3>
                             <p>This week we will start using the color sensor. The color sensor will be extremely important for letting your robot know where it is and where it should be going. For our "GuardBot" project, we will be using the color sensor during the robots Patrol mode, keeping it inside a spefic region while on patrol.</p>
                             <span class="text-primary">Challenges:</span>
-                            <li>With your robot on a desk or table, have your robot move slowly forward and start to reverse once it detects the edge.</li>
-                            <li>Have your robot move fast normally but slow down once it detects a certain color beneath it.</li>
+                            <li><a href="assets/solutions/week4_1_sol.png" target="_blank">With your robot on a desk or table, have your robot move slowly forward and start to reverse once it detects the edge.</a></li>
+                            <li><a href="assets/solutions/week4_2_sol.png" target="_blank">Have your robot move fast normally but slow down once it detects a certain color beneath it.</a></li>
                             <li><b>EXTRA - </b>With your robot on a desk or table, have your robot move slowly forward normally. Once the robot detects an edge, it should spin itself around. The robot should keep spinning until it detects the table/desk again and continue moving forward safely.</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 22nd</span></div>
+                    </div>
+                </div>
+            </section> 
+            <!-- Week 5 -->
+            <section class="resume-section" id="week5">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Week 5</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Switches</h3>
+                            <p>This week we'll be using our other touch sensor as a switch to change our robots functions at the press of a button! This switch is how we're going to change our GuardBots from Guard mode and Recon mode. Since making a switch is a bit complicated, here's an example down below.</p>
+                            <img src="assets/img/sample_switch.png", width=100%>
+                            <p>Here we can see there are two loops inside our main program loop. Each loops has a question: <i>was the button pressed</i>. If the answer is no, the a color will be displayed. If the answer is yes, we use the loop interrupt to move onto the next question. We can use this system of loop interrupt blocks to have multiple questions lined up next to each other.</p>
+                            <br>
+                            <span class="text-primary">Challenges:</span>
+                            <li>Give your robot two modes: a fast mode and a slow mode. Use the switch the switch between the two.</li>
+                            <li>Have your robot's light switch between the three color modes. Each button press should keep the color lit until the button is pressed again and the color changes.</li>
+                            <li><b>EXTRA - </b>Give your robot the following two modes. Mode 1: Green light when an object is in front of the distance sensors and red when there is no object detected. Mode 2: Red light when an object is in front of the distance sensors and green when there is no object detected.</li>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 29th</span></div>
                     </div>
                 </div>
             </section>            
