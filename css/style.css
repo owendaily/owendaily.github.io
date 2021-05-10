@@ -1,10 +1,38 @@
 /* Headers */
-h2,h4 {
+h1,h4 {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 3%;
-    font-size: 300;
+}
+
+/* List Stuff */
+ul.home-nav {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+li:hover {
+    color: #6C6079;
+}
+
+li.active {
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    color: #6C6079;
+    text-transform: uppercase;
+    font-weight: bolder !important;
+}
+
+li {
+    padding-top: 6%;
+    font-weight: bold !important;
+}
+
+.my-link {
+    color: black;
+    text-decoration: none !important;
+}
+.my-link:hover {
+    color: 6C6079;
 }
 
 /* Basic page CSS */
@@ -17,7 +45,7 @@ h2,h4 {
 }
 
 .bg-eprimary {
-    background-color: #857490;
+    background-color: #E5E5E5;
 }
 
 .centered-image {
@@ -27,15 +55,27 @@ h2,h4 {
 }
 
 /* Navbar */
+.hide {
+    visibility: hidden;
+}
+
 .nav-link {
-    color: #F4F3EE;
-    font-family: 'Signika', sans-serif;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 30% !important;
+}
+
+.nav-item {
+    font-size: 24px !important;
+    padding-right: 2vw;
 }
 
 .navbar-brand {
-    color: #F4F3EE;
-    font-family: 'Signika', sans-serif;
-    font-size: 28px !important;
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px !important;
+    font-weight: 300;
+    padding-right: 20%;
 }
 
 .navbar-brand:hover {
@@ -71,13 +111,12 @@ h2,h4 {
 }
 
 /* Masonry */
-* { box-sizing: border-box; }åß
+* { box-sizing: border-box; }å
 
 .grid:after {
   content: '';
   display: block;
   clear: both;
-  
 }
 
 .grid-item {
@@ -100,3 +139,39 @@ h2,h4 {
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 260px; }
 .grid-item--height4 { height: 360px; }
+
+/* Scaling Stuff */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .text-large {
+        font-size: 2.5rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .text-large {
+        font-size: 3rem;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .text-large {
+        font-size: 3.5rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .text-large {
+        font-size: 4rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .text-large {
+        font-size: 4.5rem;
+    }
+}
