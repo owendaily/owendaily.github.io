@@ -53,27 +53,34 @@
       <div class="col-md-8">
         <div class="row mt-5 tab-content" id="pills-tabContent">
             <div class="tab-pane fade show active" id="coops" role="tabpanel" aria-labelledby="coop-pill-tab">
-              <h3>I've completed three co-ops while studying at Northeastern! </h3>
+              <h3>I completed three co-ops and one internship while studying at Northeastern! </h3>
+              <div class="row mt-5">
+                <h5><a class="my-link" href="https://www.salesforce.com/" target="blank_">Salesforce</a> (2022)</h5>
+                <i>Software Engineer</i>
+                <p>I interned at Salesforce on the Database Observability Team. My intern project for the summer was to migrate the health reports database from Apache Hive to Apache Iceberg. Following the migration, the average latency for querying the health reports database was reduced by 65%!</p>
+                <p><u>Software Used</u>: Java (JUnit), Trino, Kafka, Apache Hive, Apache Iceberg, S3, PostgreSQL</p>
+              </div>
               <div class="row mt-5">
                 <h5><a class="my-link" href="https://www.pathai.com/" target="blank_">PathAI</a> (2022)</h5>
                 <i>Software Engineer</i>
-                <p>Starting at PathAI this January, stay tuned for updates!</p>
+                <p>I was a part of the MLOps team at PathAI, managing the internal stack used for the creation, execution, and monitoring of machine learning workflows. One of my first tasks was the design of a testing methodology that would identify if local Kubernetes pods were able to perform file locks and write to a shared mount drive. My biggest contribution to PathAI was the implementation of a "high-priority" flag that could be enabled for machine learning workflows ran on our Kubernetes cluster. Using this flag, workflows were given heightened execution priveleges, allowing them to run to completion even if the cluster was being flooded with requests. As this was a very powerful option to give workflows, I also created a Slack bot that would notifiy ML and MLOps managers for when high priority workflows were launched and who was resposible for their execution. Additionally, I created a DataDog dashboard that would provide allow resouce usage monitoring as well as tracking how many high priority workflows were being ran and for what tasks.</p>
+                <p><u>Software Used</u>: Python (Boto3, NumPy, Pytest, PyTorch, Flask), Gitlab Ci, S3, Kubernetes, Jupyter, Docker, Vue.js</p>
               </div>
               <div class="row mt-5">
                   <h5><a class="my-link" href="https://www.morsecorp.com/" target="blank_">MORSE Corp</a> (2021)</h5>
                   <i>Python Software Engineer</i>
-                  <p>I started at MORSE working on a small data engineering team maintaing a ML/CV pipeline. After a few months, I started the co-development of a library made for building machine learning pipelines. Once we finished the library, I transitioned to leading a team of 4 engineers in the design of a distributed AI networking project. I wrote system requirements, identified the project's scope, and outlined a test plan for when the product would be implemented.</p>
-                  <p><u>Software Used</u>: PySpark, Pandas, NumPy, scikit-learn, Pytest, Matplotlib</p>
+                  <p>I started at MORSE working on a small data engineering team. After a few months, I started the co-development of a library made for efficiently building machine learning pipelines. Once we finished the library, I transitioned to leading a team of 4 engineers in the design of a distributed AI networking project. With the help of my team, I wrote system requirements, identified the project's scope, and outlined a test plan for when the product would be implemented. The finished design was meant to be presented to key stakeholders that would decide whether or not MORSE would be able to implement the system fully. As part of this presentation, I created a number of animation using Manim to help better illustrate the system's capabilities and functionality.</p>
+                  <p><u>Software Used</u>: Python (PySpark, Pandas, NumPy, scikit-learn, Pytest, Matplotlib, Manim), Spark, Jenkins, Docker, JIRA</p>
               </div>
               <div class="row mt-5">
                   <h5><a class="my-link" href="https://www.ueidaq.com/" target="blank_">UEI</a> (2020)</h5>
                   <i>Sales Engineer</i>
                   <p>At UEI, I worked with the Sales and Applications teams creating internal software soltuions. Towards the end of my time at UEI, I took over the initial testing of UEI's first Python library.</p>
-                  <p><u>Software Used</u>: VBA, tkinter, OpenCV, JSwing</p>
+                  <p><u>Software Used</u>: Python (tkinter, OpenCV), Java (JSwing), VBA</p>
               </div>
             </div>
             <div class="tab-pane fade" id="classes" role="tabpanel" aria-labelledby="class-pill-tab">
-                <h3>Here's a list of classes I've taken so far!</h3>
+                <h3>Here's a list of classes I took at Northeastern!</h3>
                 <div class="row mt-5">
                     <h5>Software</h5>
                     <p>Algorithms & Data, Object-Oriented Design, Networks & Distributed Systems, Computer Systems</p>
@@ -84,8 +91,12 @@
                 </div>
                 <div class="row mt-5">
                     <h5>Engineering</h5>
-                    <p>Digital Logic Design, Embedded Design, Circuits & Signals</p>
+                    <p>Digital Logic Design, Embedded Design, Circuits & Signals, Electronics</p>
                 </div>
+                <div class="row mt-5">
+                  <h5>Math</h5>
+                  <p>Calculus 3, Differential Equations and Linear Algebra, Probability and Statistics, Graph Theory</p>
+              </div>
             </div>
         </div>
       </div>

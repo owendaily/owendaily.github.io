@@ -144,6 +144,25 @@ ul.nav-pills a.active {
     color: #F4F3EE;
 }
 
+/* Gallery Things */
+.my-button {
+    text-align: left !important;
+}
+.my-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.my-button:hover {
+    color: #6C6079 !important;
+    transform: scale(1) !important;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
 /* Masonry */
 * { box-sizing: border-box; }å
 
