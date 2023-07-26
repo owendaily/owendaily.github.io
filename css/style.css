@@ -250,3 +250,19 @@ ul.nav-pills a.active {
 .btn:hover {
     transform: scale(1.1);
 }
+
+.gallery-product {
+    text-align:center;
+}
+.gallery-container {
+    padding-top:5%;
+}
+
+.modal-body-item {
+    padding-top:5%;
+}
+.gallery-img {
+    width: 100%;
+    aspect-ratio: 1;
+    
+}
