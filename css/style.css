@@ -266,3 +266,7 @@ ul.nav-pills a.active {
     aspect-ratio: 1;
     
 }
+
+iframe {
+    margin-bottom: 2%;
+}
