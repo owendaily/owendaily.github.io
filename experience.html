@@ -46,13 +46,26 @@
       <div class="col-md-3">
         <ul class="nav flex-column nav-pills home-nav"  id="pills-tab" role="tablist">
           <li class="active"><h1>EXPERIENCE</h1></li>
-          <li><a class="active my-link" id="coop-pill-tab" data-toggle="pill" href="#coops" role="tab" aria-controls="coops" aria-selected="true"><h1>Co-ops</h1></a></li>
+          <li><a class="active my-link" id="pro-pill-tab" data-toggle="pill" href="#professional" role="tab" aria-controls="professional" aria-selected="true"><h1>Professional</h1></a></li>
+          <li><a class="my-link" id="coop-pill-tab" data-toggle="pill" href="#coops" role="tab" aria-controls="coops" aria-selected="false"><h1>Co-ops</h1></a></li>
           <li><a class="my-link" id="class-pill-tab" data-toggle="pill" href="#classes" role="tab" aria-controls="classes" aria-selected="false"><h1>Classes</h1></a></li>
         </ul>
       </div>
-      <div class="col-md-8">
+      <div class="col-md-2">
+        <!-- Spacing Column -->
+      </div>
+      <div class="col-md-7">
         <div class="row mt-5 tab-content" id="pills-tabContent">
-            <div class="tab-pane fade show active" id="coops" role="tabpanel" aria-labelledby="coop-pill-tab">
+          <div class="tab-pane fade show active" id="professional" role="tabpanel" aria-labelledby="pro-pill-tab">
+            <h3>Where have I been since graduating?</h3>
+            <div class="row mt-5">
+              <h5><a class="my-link" href="https://www.morsecorp.com/" target="blank_">MORSE Corp</a> (2023-Present)</h5>
+              <i>Python Software Engineer</i>
+              <p>During my time at MORSE, I've been a part of numerous projects on both the Data Intelligence and Test Range Automation portfolios. My first project was a wrapper library around Matplotlib to simplify and standardize AI T&E report generation. I started by refactoring the numerous, diverging plotting functions to a few extensible and reusable functions as well as creating new plotting functions for visualizing T&E metrics. This library is in use both internally for all T&E projects at MORSE and also in the Joint AI Test Infrastructure Capability (JATIC) program under the Chief Digital and Artificial Intelligence Office (CDAO) in the DoD. Following my work on JATIC, I was part of a novel, AI-enabled toolkit for simulating vehicle and sensor interaction in real-world environments. The toolkit was developed using Python for configuration and analytics, a C++ compiled library for simulation runtime, and Typescript/React for a simple web UI. After 6 months of developing this toolkit from the ground up, I was promoted to Task Lead, leading a small team of engineers by handling task management, running standups and retros, and working with Chief Engineers for sprint planning and requirement gathering (all while actively developing new features for the toolkit). In between this program’s contract breaks, I also worked on another program developing and maintaining T&E pipelines for vendor-provided models. I was in charge of moving our pipeline orchestration from an internal tooling library to Airflow, enabling simpler deployment capabilities and reducing the number of developers needed to maintain the pipelines. Currently, I am working on the Test Range Automation portfolio as a full-stack developer on a few products supporting efficient data management at ARMY test centers.</p>
+              <p><u>Software Used</u>: Python (Pydantic, matplotlib, NumPy, Pandas, Pytest), C++ (CMake,pybind11), Typescript, React, Airflow, Gitlab Ci, Jupyter, Docker</p>
+            </div>
+          </div>
+            <div class="tab-pane fade" id="coops" role="tabpanel" aria-labelledby="coop-pill-tab">
               <h3>I completed three co-ops and one internship while studying at Northeastern! </h3>
               <div class="row mt-5">
                 <h5><a class="my-link" href="https://www.salesforce.com/" target="blank_">Salesforce</a> (2022)</h5>
@@ -67,41 +80,38 @@
                 <p><u>Software Used</u>: Python (Boto3, NumPy, Pytest, PyTorch, Flask), Gitlab Ci, S3, Kubernetes, Jupyter, Docker, Vue.js</p>
               </div>
               <div class="row mt-5">
-                  <h5><a class="my-link" href="https://www.morsecorp.com/" target="blank_">MORSE Corp</a> (2021)</h5>
-                  <i>Python Software Engineer</i>
-                  <p>I started at MORSE working on a small data engineering team. After a few months, I started the co-development of a library made for efficiently building machine learning pipelines. Once we finished the library, I transitioned to leading a team of 4 engineers in the design of a distributed AI networking project. With the help of my team, I wrote system requirements, identified the project's scope, and outlined a test plan for when the product would be implemented. The finished design was meant to be presented to key stakeholders that would decide whether or not MORSE would be able to implement the system fully. As part of this presentation, I created a number of animation using Manim to help better illustrate the system's capabilities and functionality.</p>
-                  <p><u>Software Used</u>: Python (PySpark, Pandas, NumPy, scikit-learn, Pytest, Matplotlib, Manim), Spark, Jenkins, Docker, JIRA</p>
+                <h5><a class="my-link" href="https://www.morsecorp.com/" target="blank_">MORSE Corp</a> (2021)</h5>
+                <i>Python Software Engineer</i>
+                <p>I started at MORSE working on a small data engineering team. After a few months, I started the co-development of a library made for efficiently building machine learning pipelines. Once we finished the library, I transitioned to leading a team of 4 engineers in the design of a distributed AI networking project. With the help of my team, I wrote system requirements, identified the project's scope, and outlined a test plan for when the product would be implemented. The finished design was meant to be presented to key stakeholders that would decide whether or not MORSE would be able to implement the system fully. As part of this presentation, I created a number of animation using Manim to help better illustrate the system's capabilities and functionality.</p>
+                <p><u>Software Used</u>: Python (PySpark, Pandas, NumPy, scikit-learn, Pytest, Matplotlib, Manim), Spark, Jenkins, Docker, JIRA</p>
               </div>
               <div class="row mt-5">
-                  <h5><a class="my-link" href="https://www.ueidaq.com/" target="blank_">UEI</a> (2020)</h5>
-                  <i>Sales Engineer</i>
-                  <p>At UEI, I worked with the Sales and Applications teams creating internal software soltuions. Towards the end of my time at UEI, I took over the initial testing of UEI's first Python library.</p>
-                  <p><u>Software Used</u>: Python (tkinter, OpenCV), Java (JSwing), VBA</p>
+                <h5><a class="my-link" href="https://www.ueidaq.com/" target="blank_">UEI</a> (2020)</h5>
+                <i>Sales Engineer</i>
+                <p>At UEI, I worked with the Sales and Applications teams creating internal software soltuions. Towards the end of my time at UEI, I took over the initial testing of UEI's first Python library.</p>
+                <p><u>Software Used</u>: Python (tkinter, OpenCV), Java (JSwing), VBA</p>
               </div>
             </div>
             <div class="tab-pane fade" id="classes" role="tabpanel" aria-labelledby="class-pill-tab">
-                <h3>Here's a list of classes I took at Northeastern!</h3>
-                <div class="row mt-5">
-                    <h5>Software</h5>
-                    <p>Algorithms & Data, Object-Oriented Design, Networks & Distributed Systems, Computer Systems</p>
-                </div>
-                <div class="row mt-5">
-                    <h5>Data Science</h5>
-                    <p>Natural Language Processing, Machine Learning & Data Mining</p>
-                </div>
-                <div class="row mt-5">
-                    <h5>Engineering</h5>
-                    <p>Digital Logic Design, Embedded Design, Circuits & Signals, Electronics</p>
-                </div>
-                <div class="row mt-5">
-                  <h5>Math</h5>
-                  <p>Calculus 3, Differential Equations and Linear Algebra, Probability and Statistics, Graph Theory</p>
+              <h3>Here's a list of classes I took as a Computer Engineer / Computer Science major at Northeastern!</h3>
+              <div class="row mt-5">
+                  <h5>Software</h5>
+                  <p>Algorithms & Data, Object-Oriented Design, Networks & Distributed Systems, Computer Systems</p>
+              </div>
+              <div class="row mt-5">
+                  <h5>Data Science</h5>
+                  <p>Natural Language Processing, Machine Learning & Data Mining</p>
+              </div>
+              <div class="row mt-5">
+                  <h5>Engineering</h5>
+                  <p>Digital Logic Design, Embedded Design, Circuits & Signals, Electronics</p>
+              </div>
+              <div class="row mt-5">
+                <h5>Math</h5>
+                <p>Calculus 3, Differential Equations and Linear Algebra, Probability and Statistics, Graph Theory</p>
               </div>
             </div>
         </div>
-      </div>
-      <div class="col-md-1">
-        <!-- Spacing Column -->
       </div>
     </div>
   </div>
